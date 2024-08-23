@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="go.css">
+    
+</head>
+<body>
+   <div id="calculator">
+    <input id="display" readonly>
+
+      <div id="main">
+
+     
+
+        <button onclick="clearDisplay() " class="a b">AC</button>
+        <button onclick="Single()" class="a b">DE</button>
+        <button onclick="goWork('/')" class="a b" >÷</button>
+        <button onclick="goWork('*')" class="a b">X</button>
+
+        <button onclick="goWork('7')" >7</button>
+        <button onclick="goWork('8')" >8</button>
+        <button onclick="goWork('9')" >9</button>
+        <button onclick="goWork('-')"class="a b"> - </button>
+
+        <button onclick="goWork('4')">4</button>
+        <button onclick="goWork('5')">5</button>
+        <button onclick="goWork('6')">6</button>
+        <button onclick="goWork('+')" class="a b"> +</button>
+
+        <button onclick="goWork('1')">1</button>
+        <button onclick="goWork('2')">2</button>
+        <button onclick="goWork('3')">3</button>
+        <button onclick="goWork('%')" class="a b"> %</button>
+        
+        <button onclick="goWork('.')" >.</button>
+        <button onclick="goWork('0')" >0</button>
+        <button onclick="goWork(',')" >,</button>
+        <button onclick="calculator()" class="a b">=</button>
+      </div>
+      
+      
+
+
+   </div>
+    <script src="apps.js"></script>
+    
+</body>
+</html>
